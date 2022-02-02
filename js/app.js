@@ -138,3 +138,28 @@ deleteButton.addEventListener('click', () => {
     calculator.updateDisplay();
 })
 
+
+
+
+//_____________EXPLiCAÇÕES________________________
+
+// clear(){
+//     this.currentOperand = '';
+//     this.previousOperand = '';
+//     this.operation = undefined;
+// }
+
+//A Função clear() é responsável por fazer com que as operações que receberem os valores de vazio , não sejam realizadas , ou seja , o valor será UNDEFINED;
+
+//__________________________________________________
+
+// updateDisplay(){
+//     this.previousOperandTextElement.innerText = `${this.formatDisplayNumber(this.previousOperand)} ${this.operation || ''}`
+
+//     this.currentOperandTextElement.innerText = this.formatDisplayNumber(this.currentOperand)
+// }
+
+//Essa função é responsável por atualizar os elementos de texto na tela 
+
+//__________________________________________________________
+
