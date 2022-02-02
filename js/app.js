@@ -163,3 +163,54 @@ deleteButton.addEventListener('click', () => {
 
 //__________________________________________________________
 
+// const calculator = new Calculator(previousOperandTextElement, currentOperandTextElement);
+
+//para utlizar a classe criada , precisamos utilizar como prefixo o operador NEW, e devemos passar os elementos que serão manipulados no documento.
+
+//____________________________________________________________
+
+// appendNumber(number){
+//     if(this.currentOperand.includes('.') && number == '.') return;
+//     this.currentOperand = `${this.currentOperand}${number.toString()}`
+// }
+
+// for(const numberButton of numberButtons){
+//     numberButton.addEventListener('click', () => {
+//         calculator.appendNumber(numberButton.innerText);
+//         calculator.updateDisplay();
+//     })
+// }
+
+//A function está pegando os valores que é passado por cada botão e inserindo na tela , ou seja , o laço for está pegando todos os numbersButtons e transformando em texto para ser inserido na tela.
+
+//________________________________________________________________
+
+// formatDisplayNumber(number){
+//     const stringNumber = number.toString();
+
+//     const integerDigits = parseFloat(stringNumber.split('.')[0])
+
+//     const decimalDigits = stringNumber.split('.')[1]
+
+//     let integerDisplay;
+
+//     if(isNaN(integerDigits)){
+//         integerDisplay = ''
+//     }
+//     else{
+//         integerDisplay = integerDigits.toLocaleString('en', {
+//             maximumFractionDigits: 0,
+//         })
+//     }
+
+//     if(decimalDigits != null){
+//         return `${integerDisplay}.${decimalDigits}`
+//     }
+//     else{
+//         return integerDisplay
+//     }
+// }
+
+
+//Formatando os Números para que fique de forma alinhada com o sistema númerico.
+
